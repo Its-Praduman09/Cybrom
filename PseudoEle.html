@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* p::first-letter
+        {
+          color:red;
+          font-size:100px;
+        }*/
+        p::first-line
+        {
+          color:red;
+          font-size:30px;
+        }
+        p::selection
+        {
+            color:blueviolet;
+            font-size:50px;
+            background-color:aqua;
+            
+        }
+        input{
+            width:300px;
+            height:35px;
+            font-size:30px;
+        }
+        input::placeholder
+        {
+            font-size:25px;
+            
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo Elements</h1>
+  <p>A paragraph is a self-contained unit of discourse in writing dealing with a 
+    particular point or idea. A paragraph is a self-contained unit of discourse in
+    writing dealing with a particular point or idea. A paragraph is a self-contained 
+    unit of discourse in writing dealing with a particular point or idea.
+    A paragraph is a self-contained unit of discourse in writing dealing with a 
+    particular point or idea. A paragraph is a self-contained unit of discourse in
+    writing dealing with a particular point or idea. A paragraph is a self-contained 
+    unit of discourse in writing dealing with a particular point or idea.</p>  
+    <select class="s"> <!-- This is also known as Drop-Down-->
+        <option>C</option>
+        <option>C++</option>
+        <option>Java</option>
+        <option>Python</option>
+        <option>Javascript</option>
+    </select>
+    <input type="password" placeholder="Enter Your Password">
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .d1
+    {
+        width:200px;
+        height:200px;
+        background-color:red;
+        border-radius:100%;
+        animation-name:Demo1;
+        animation-duration:5s;
+        animation-iteration-count: infinite;
+    }
+    .d2
+    {
+        width:200px;
+        height:200px;
+        background-color:blueviolet;
+        border-radius:100%;
+        animation-name:Demo2;
+        animation-duration:5s;
+        animation-iteration-count: infinite;
+    }
+    .d3
+    {
+        width:200px;
+        height:200px;
+        background-color:blueviolet;
+        border-radius:100%;
+        animation-name:Demo3;
+        animation-duration:5s;
+        animation-iteration-count: infinite;
+    }
+    /*.d1:hover
+    {
+        width:200px;
+        height:200px;
+        background-color:blue;
+        transform:translateX(500px);
+        border-radius: 10px;
+    }*/
+    @keyframes Demo1
+    {
+        from
+        {
+            width:200px;
+            height:200px;
+            background-color:red;
+           /* transform:translateY(300px);  */
+        }
+        to
+        {
+        width:200px;
+        height:200px;
+        background-color:aqua;
+        transform:translateX(500px);
+        border-radius: 10px; 
+        }
+    }
+    @keyframes Demo2
+    {
+        from
+        {
+            width:200px;
+            height:200px;
+            background-color:red;
+           /* transform:translateY(300px);  */
+        }
+        to
+        {
+        width:200px;
+        height:200px;
+        background-color:brown;
+        transform:translateX(500px);
+        border-radius: 10px; 
+        }
+    }
+    @keyframes Demo3
+    {
+        from
+        {
+            width:200px;
+            height:200px;
+            background-color:red;
+           /* transform:translateY(300px);  */
+        }
+        to
+        {
+        width:200px;
+        height:200px;
+        background-color:blueviolet;
+        transform:translateX(500px);
+        border-radius: 10px; 
+        }
+    }
+    </style>
+</body>
+<div class="d1"></div><br>
+<div class="d2"></div><br>
+<div class="d3"></div><br>
+</html>

@@ -1,0 +1,20 @@
+p::first-letter
+{
+ color:red;
+ font-size:80px;
+}
+.p1::first-line
+{
+ color:blue;
+ font-size:50px;
+}
+.p1::selection
+{
+ color:blue;
+ background-color:pink;
+ font-size:50px;
+}
+input::placeholder{
+    color:blue;
+    font-size:18px;
+}

@@ -1,0 +1,35 @@
+.parent{
+    display: flex; 
+    justify-content:space-around;
+    padding: 30px;
+    
+}
+.child{
+    background-color:aqua;
+    height: 300px;
+    width: 300px;
+}
+.par{
+    width: 1680px;
+    height: 200px;
+    background-color:blue;
+    
+}
+.parent2{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.child1{
+color: blue;
+background-color:yellow;
+height: 150px;
+width: 600px;
+
+}
+.child2{
+    width: 1680px;
+    height: 100px;
+    background-color:pink;
+
+}

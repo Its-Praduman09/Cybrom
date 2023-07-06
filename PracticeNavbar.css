@@ -1,0 +1,20 @@
+
+.nav{
+    background-color:lightblue;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.nav ul li
+{
+    
+    display:inline; 
+    padding: 25px;
+}
+.nav ul li{
+    text-decoration:none;
+    color:black;
+    font-size:30px;
+    font-family:Verdana;
+    color:blue;
+}

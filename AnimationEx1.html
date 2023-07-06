@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* div
+        {
+            width:300px;
+            height:300px;
+            background-color:red;
+           /* transform:rotateY(50deg);*/
+          /*  transform:perspective(50px)rotateY(50deg);*/
+       /* }*/
+        div
+        {
+            width:200px;
+            height:200px;
+            background-color:red;
+            position: absolute;
+            animation-name:Demo;
+            animation-duration:5s;
+          /*  animation-delay:2s;*/
+          /* animation-direction:alternate-reverse;*/
+          /* animation-iteration-count: 2;*/
+           /*animation-direction: alternate;*/
+           animation-duration: 02s;
+           /*animation-fill-mode: forwards; Stop to end*/
+           /*animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);*/
+        }
+
+        @keyframes Demo
+        {
+            0%
+            {
+                top:0%;
+                left:0%;
+                background-color:blue;
+            }
+            50%
+            {
+                top:0%;
+                left:50%;
+                background-color:yellow;
+            }
+            100%
+            {
+                top:50%;
+                left:50%;
+                rotate:180deg;
+               /* scale:2;*/
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

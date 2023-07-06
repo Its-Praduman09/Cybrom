@@ -1,0 +1,25 @@
+p
+{
+    color:blue;
+    font-size:25px;
+    font-family:Verdana;
+    font-weight:bold;
+    letter-spacing:2px;
+    line-height:30px;
+    text-transform:uppercase;
+    text-transform:lowercase;
+    text-transform: capitalize;
+}
+.Parent
+{
+    display:flex;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+.Child
+{
+    background-color:red;
+    width:500px;
+    height:300px;
+}

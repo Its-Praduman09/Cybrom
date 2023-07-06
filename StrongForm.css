@@ -1,0 +1,55 @@
+h1::first-line
+{
+    font-size:30px;
+    text-align: center;
+}
+.hh
+{
+    color:blue;
+    margin-top:-57px;
+    margin-right:-400px;
+    
+}
+h1
+{
+    margin-left:-200px;
+}
+label{
+    padding:50px;
+}
+input
+{
+width:300px;
+height:22px;
+font-size:18px;
+}
+input:focus
+{
+    background-color:blueviolet;
+}
+.select1
+{
+    width:320px;
+    height:25px;
+}
+select:hover
+{
+    background-color:aqua;
+}
+select
+{
+    width:200px;
+    height:25px;
+}
+button
+{
+    width:150px;
+    height:40px;
+    background-color:yellow;
+    font-size:25px;
+}
+button:hover
+{
+    background-color:lightblue;
+    transition: 0.5s;
+}

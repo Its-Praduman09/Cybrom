@@ -1,0 +1,87 @@
+.Parent
+{
+    width:1670px;
+    height:200px;
+    background-color:green;
+    display:flex;
+}
+.Parent1
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Child
+{
+    width:450px;
+    height:250px;
+    background-color:blue; 
+}
+.Parent2
+{
+   display:flex;
+   justify-content: space-around;
+}
+.Child1
+{
+    background-color:red;
+    width:800px;
+    height:250px;
+}
+.Last
+{
+    background-color:brown;
+    width:1680px;
+    height:200px;
+}
+.P1
+{
+    display:flex;
+    justify-content: space-around;
+}
+.C1
+{
+    background-color:chartreuse;
+    width:600px;
+    height:300px;
+}
+.C2
+{
+    background-color:chartreuse;
+    width:400px;
+    height:200px;
+    margin-top:50px;
+}
+.P2
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+.L1
+{
+        background-color:cornflowerblue;
+        width:500px;
+        height:300px;
+}
+.L2
+{
+        background-color:cornflowerblue;
+        width:400px;
+        height:200px;
+        margin-top:60px;
+        box-shadow: 5px 5px 5px 5px yellow;
+}
+.L3
+{
+        background-color:cornflowerblue;
+        width:500px;
+        height:300px;
+}
+.End
+{
+    background-color:blueviolet;
+    width:1650px;
+    height:250px;
+    border:10px solid;
+    
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div ul li
+        {
+            border:2px solid red;
+            display: block;
+            display: inline-block; 
+            margin:20px;
+            padding:20px;
+           /*margin-top:20px;-*/
+        }
+        .ch1
+        {
+            height: 100px;
+            width:100px;
+            background-color:blue;
+        }
+        .ch2
+        {
+            height: 100px;
+            width:100px;
+            background-color:red;
+        }
+        .ch3
+        {
+            height: 100px;
+            width:100px;
+            background-color:aqua;
+        }
+        .parent
+        {
+            display:flex;
+            flex-wrap:wrap-reverse;
+           /* flex-wrap: wrap;*/
+           /* flex-direction: row-reverse;*/
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Hi</li>
+            <li>Hello</li>
+            <li>Hey</li>
+        </ul>
+    </div>
+    <div class="parent">
+        <div class="ch1"></div>
+        <div class="ch2"></div>
+        <div class="ch3"></div>
+    </div>
+</body>
+</html>

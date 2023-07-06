@@ -1,0 +1,29 @@
+*
+{
+    
+    padding:0px;
+}
+.nav
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding:30px;
+    background-color:pink;
+}
+.nav ul li
+{
+    display: inline;
+    padding:30px;
+}
+.nav ul li a
+{
+    text-decoration:none;
+    font-size:30px;
+}
+h1
+{
+    font-weight:28px;
+    color:white;
+    font-weight: bold;
+}

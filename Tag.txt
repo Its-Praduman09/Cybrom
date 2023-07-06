@@ -1,0 +1,7 @@
+<b> Tag is is used to highlight text only For Ex:-Link or navigationbar
+
+<strong> Tag it is used to higight to text that is important in terms of content
+
+<i> tag is often used to indicate a technical term
+<cite> tag defines the title of a creative work (e.g. a book, a poem, a song,
+The <em> tag is used to define emphasized text.

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            width:200px;
+            height:200px;
+            background-color:red;
+            animation-name:Demo;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+        }
+        .d
+        {
+            width:200px;
+            height:200px;
+            background-color:red;;
+            animation-name:Demo1;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+        }
+        .d1
+        {
+            width:200px;
+            height:200px;
+            background-color:red;;
+            animation-name:Demo2;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+        }
+        .d2
+        {
+            width:200px;
+            height:200px;
+            background-color:red;;
+            animation-name:Demo3;
+            animation-duration:5s;
+            animation-iteration-count:infinite;
+        }
+        
+        
+        /*div:hover
+        {
+            background-color:blue;
+            transform:scaleX(80%);
+        }*/
+        @keyframes Demo
+        {
+            from
+            {
+                background-color:blue;
+                transform:translateX(1450px);
+                border-radius:100%;
+            }
+            to
+            {
+                Background-color:black;
+                transform:translateY(500px);
+                border-radius:100%;
+            }
+        }
+        @keyframes Demo1
+        {
+            from
+            {
+                background-color:red;
+                transform:translateY(200px);
+                border-radius:100%;
+            }
+            to
+            {
+                Background-color:yellow;
+                transform:translateX(1500px);
+                border-radius:100%;
+            }
+        }
+        @keyframes Demo2
+        {
+            from
+            {
+                background-color:magenta;
+                transform:translatX(100px);
+                border-radius:100%;
+                margin-left:1200px;
+            }
+            to
+            {
+                background-color:cyan;
+                transform:translateY(-400px);
+                border-radius:100%;
+            }
+        }
+        @keyframes Demo3
+        {
+            from
+            {
+                background-color:chartreuse;
+                transform:translatY(100px);
+                border-radius:100%;
+                margin-left:1200px;
+            }
+            to
+            {
+                background-color:red;
+                transform:translateX(-400px);
+                border-radius:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="d"></div>
+    <div class="d1"></div>
+    <div class="d2"></div>
+</body>
+</html>

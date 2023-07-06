@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div ul li 
+        {
+            display:block;
+            border:2px solid red;
+            display:inline;
+            margin:50px;
+            padding:12px;
+            
+        }
+        .parent
+        {
+            display:flex;
+            /*flex-direction:row-reverse;*/
+            flex-wrap: wrap;
+        }
+        .Ch1
+        {
+            width:200px;
+            height:200px;
+            background-color:blue;
+        }
+        .Ch2
+        {
+            width:200px;
+            height:200px;
+            background-color:red;
+        }
+        .Ch3
+        {
+            width:200px;
+            height:200px;
+            background-color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+  <div>
+    <ul>
+        <li>Hello</li>
+        <li>Hi</li>
+        <li>Hey</li>
+    </ul>
+  </div> <br><br> 
+  <div class="parent">
+    <div class="Ch1"></div>
+    <div class="Ch2"></div>
+    <div class="Ch3"></div>
+  </div>
+</body>
+</html>

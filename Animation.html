@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+            width:300px;
+            height:200px;
+            background-color:red;
+            animation-name:Demo;
+            animation-duration:5s;
+            animation-iteration:infinite;
+        }
+        @keyframes Demo
+        {
+            from
+            {
+                transform:translateY(1000px);
+                background-color:pink;
+            }
+            to
+            {
+                transform:translateX(1000px);
+                background-color:blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
